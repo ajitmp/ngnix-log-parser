@@ -1,0 +1,13 @@
+https://dev.to/ksndeveloper/parsing-nginx-logs-using-python-1m6k
+https://github.com/allinurl/goaccess
+https://goaccess.io/
+https://www.elastic.co/guide/en/observability/current/monitor-nginx.html
+https://ruan.dev/blog/2019/04/02/setup-kibana-dashboards-for-nginx-log-data-to-understand-the-behavior
+https://docs.nginx.com/amplify/user-interface/dashboards/
+https://docs.nginx.com/nginx-amplify/
+https://devxblog.hashnode.dev/monitor-nginx-with-grafana-dashboard
+https://medium.com/@williamdonze/grafana-monitor-nginx-proxy-manager-website-4d03b60c761f
+https://www.alibabacloud.com/help/en/sls/user-guide/collect-and-analyze-nginx-access-logs
+https://betterstack.com/community/questions/how-to-parse-nginx-logs/
+https://pypi.org/project/ngxtop/
+https://dev.to/manojspace/setting-up-datadog-agent-for-nginx-log-collection-on-aws-ec2-1bjj
