@@ -28,7 +28,7 @@ class Parser:
 
 if __name__ == '__main__':
     parser = Parser()
-    LOG_FILE = "access.log"
+    LOG_FILE = "big-access.log"
     with open(LOG_FILE, "r") as f:
         log_entries = [parser.parse_line(line) for line in f]
 

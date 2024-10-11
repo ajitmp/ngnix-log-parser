@@ -11,3 +11,6 @@ https://www.alibabacloud.com/help/en/sls/user-guide/collect-and-analyze-nginx-ac
 https://betterstack.com/community/questions/how-to-parse-nginx-logs/
 https://pypi.org/project/ngxtop/
 https://dev.to/manojspace/setting-up-datadog-agent-for-nginx-log-collection-on-aws-ec2-1bjj
+https://community.hetzner.com/tutorials/analyze-nginx-access-log-using-sql
+https://mattsegal.dev/django-gunicorn-nginx-logging.html
+https://www.sumologic.com/
