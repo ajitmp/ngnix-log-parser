@@ -1,0 +1,20 @@
+@startuml
+
+actor User
+participant "Frontend" as FE
+participant "Backend" as BE
+database "Log Database" as DB
+participant "Log Analyzer" as Analyzer
+participant "Dashboard" as Dashboard
+
+User -> FE: Upload Nginx log file
+FE -> BE: Send log file
+BE -> DB: Store log file
+BE -> Analyzer: Process log file
+Analyzer -> Analyzer: Analyze log data (e.g., request counts, error rates)
+Analyzer -> BE: Send analysis result
+BE -> Dashboard: Generate metrics dashboard
+Dashboard -> FE: Display metrics dashboard
+FE -> User: Show dashboard with analysis
+
+@enduml

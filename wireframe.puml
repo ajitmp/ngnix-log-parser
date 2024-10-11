@@ -1,0 +1,53 @@
+graph TD
+    Header
+    subgraph Header
+        Logo["Logo"]
+        NavigationMenu["Navigation Menu"]
+        UserAccountSection["User Account Section"]
+    end
+
+    MainContent
+    subgraph MainContent
+        LoginPage
+        subgraph LoginPage
+            EmailInputField["Email Input Field"]
+            PasswordInputField["Password Input Field"]
+            LoginButton["Login Button"]
+        end
+
+        UploadPage
+        subgraph UploadPage
+            FileUploadSection
+            subgraph FileUploadSection
+                ChooseFileButton["Choose File Button"]
+                UploadButton["Upload Button"]
+            end
+
+            AnalysisMetrics
+            subgraph AnalysisMetrics
+                TotalRequests["Total Requests"]
+                UniqueIPs["Unique IPs"]
+                ResponseTime["Response Time"]
+                ErrorCodes["Error Codes"]
+            end
+        end
+    end
+
+    Footer
+    subgraph Footer
+        ContactInformation["Contact Information"]
+        TermsOfService["Terms of Service"]
+        PrivacyPolicy["Privacy Policy"]
+    end
+
+    User["User"]
+
+    User --> Header
+    User --> LoginPage
+    User --> EmailInputField
+    User --> PasswordInputField
+    User --> LoginButton
+    LoginPage --> UploadPage
+    User --> FileUploadSection
+    User --> UploadButton
+    UploadPage --> AnalysisMetrics

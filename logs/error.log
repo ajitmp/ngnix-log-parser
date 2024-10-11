@@ -1,0 +1,1 @@
+2024/10/11 08:35:39 [error] 115444#115444: *516 open() "/var/www/megaproject-backend/static/admin/javascript/hetong.js" failed (2: No such file or directory), client: 47.88.94.159, server: 13.209.93.212, request: "GET /static/admin/javascript/hetong.js HTTP/1.1", host: "13.209.93.212"
